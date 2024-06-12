@@ -52,6 +52,6 @@ void EXTI_Enable(EXTI_ConfigType *Config_PTR);
 void EXTI_Disable(EXTI_ConfigType *Config_PTR);
 
 /****************************** Call Back function *****************************/
-void EXTI_setCallBack(Interrupt_ConfigType *Config_Ptr, void (*a_ptr)(void));
+void EXTI_setCallBack(EXTI_ConfigType *Config_Ptr, void (*a_ptr)(void));
 
 #endif

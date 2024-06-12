@@ -1,11 +1,7 @@
-// #include "CTRL_MCU.h"
-
-// #include "HMI_MCU.h"
-
-//#include "Stopwatch.h"
+//#define F_CPU 16000000UL
+#include "../APP/app.h"
 
 int main(void)
 {
-	// CTRL_MCU();
-	//Stopwatch_main();
+	app_main();
 }

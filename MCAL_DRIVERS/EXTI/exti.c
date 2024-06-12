@@ -150,9 +150,9 @@ void EXTI_Disable(EXTI_ConfigType *Config_PTR)
     }
 }
 
-void EXTI_setCallBack(Interrupt_ConfigType *Config_Ptr, void (*a_ptr)(void))
+void EXTI_setCallBack(EXTI_ConfigType *Config_Ptr, void (*a_ptr)(void))
 {
-    switch (Config_PTR->interrupt)
+    switch (Config_Ptr->interrupt)
     {
     case EXTI_INT0:
         g_INT0_callBackPtr = a_ptr;

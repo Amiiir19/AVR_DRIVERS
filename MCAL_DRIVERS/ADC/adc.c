@@ -54,7 +54,7 @@ void ADC_init(ADC_ConfigType *config_ptr)
 
     // ADCSRA | ADC Prescaler Selections 11111000
     ADCSRA = (ADCSRA & 0xF8) | (config_ptr->prescaler & 0x07);
-
+/*and 0x07 make sure only the three LSBs and the rest are zeros to avoid modify any other bits */
     // ADCSRA | ADC enable
     SET_BIT(ADCSRA, ADEN);
 
@@ -106,3 +106,4 @@ ISR(ADC_vect)
     g_ADC_result = ADC;
 }
 #endif
+

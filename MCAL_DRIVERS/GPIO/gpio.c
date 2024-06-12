@@ -15,9 +15,16 @@
 
 #include <avr/io.h> /* To use the IO Ports Registers */
 
+/**
+ * @brief 
+ * 
+ * @param port_num 
+ * @param pin_num 
+ * @param direction 
+ */
 void GPIO_setPinDirection(uint8 port_num, uint8 pin_num, GPIO_PinDirection direction)
 {
-    if (NUM_OF_PINS >= pin_num || NUM_OF_PORTS >= port_num)
+    if ((pin_num >= NUM_OF_PINS) || (port_num >= NUM_OF_PORTS))
     {
         return;
     }
@@ -53,7 +60,7 @@ void GPIO_setPinDirection(uint8 port_num, uint8 pin_num, GPIO_PinDirection direc
 }
 void GPIO_writePin(uint8 port_num, uint8 pin_num, uint8 value)
 {
-    if (NUM_OF_PINS >= pin_num || NUM_OF_PORTS >= port_num)
+    if ((pin_num >= NUM_OF_PINS) || (port_num >= NUM_OF_PORTS))
     {
         return;
     }
@@ -75,12 +82,12 @@ void GPIO_writePin(uint8 port_num, uint8 pin_num, uint8 value)
         break;
     }
 }
-void GPIO_readPin(uint8 port_num, uint8 pin_num)
+uint8 GPIO_readPin(uint8 port_num, uint8 pin_num)
 {
-    if (NUM_OF_PINS >= pin_num || NUM_OF_PORTS >= port_num)
+     if ((pin_num >= NUM_OF_PINS) || (port_num >= NUM_OF_PORTS))
     {
-        return;
     }
+    else{
     switch (port_num)
     {
     case PORTA_ID:
@@ -94,10 +101,11 @@ void GPIO_readPin(uint8 port_num, uint8 pin_num)
     default:
         break;
     }
+    }
 }
 void GPIO_setPortDirection(uint8 port_num, GPIO_PortDirection direction)
 {
-    if (NUM_OF_PORTS >= port_num)
+    if ((port_num >= NUM_OF_PORTS))
     {
         return;
     }
@@ -121,7 +129,7 @@ void GPIO_setPortDirection(uint8 port_num, GPIO_PortDirection direction)
 }
 void GPIO_writePort(uint8 port_num, uint8 value)
 {
-    if (NUM_OF_PORTS >= port_num)
+     if ((port_num >= NUM_OF_PORTS))
     {
         return;
     }
@@ -145,10 +153,10 @@ void GPIO_writePort(uint8 port_num, uint8 value)
 }
 uint8 GPIO_readPort(uint8 port_num)
 {
-    if (NUM_OF_PORTS >= port_num)
+    if ((port_num >= NUM_OF_PORTS))
     {
-        return;
     }
+    else{
     switch (port_num)
     {
     case PORTA_ID:
@@ -162,4 +170,5 @@ uint8 GPIO_readPort(uint8 port_num)
     default:
         break;
     }
+}
 }
