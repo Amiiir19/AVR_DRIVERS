@@ -108,7 +108,12 @@ add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/ICU/icu.c)
 #)
 ##################################################################################
 # creates the main executable
-add_executable(${PROJECT_NAME}.elf ${SOURCES})
+# Check if SOURCES list is not empty before creating the executable
+if(SOURCES)
+    # Add executable
+    add_executable(${PROJECT_NAME}.elf ${SOURCES})
+
+#add_executable(${PROJECT_NAME}.elf ${SOURCES})
 
 ################################################################################
 
@@ -122,4 +127,7 @@ add_custom_target(${PROJECT_NAME}.hex ALL
 add_custom_target(flash
     COMMAND avrdude -v -p m32 -c usbasp  -b 115200 -U flash:w:${PROJECT_NAME}.hex:i
 )
+else()
+    message(FATAL_ERROR "No source files found. Please check the paths and ensure the source files exist.")
+endif()
 
