@@ -12,7 +12,6 @@
  *******************************************************************************/
 #ifndef SENSOR_H
 #define SENSOR_H
-#include "../../MCAL_DRIVERS/ADC/adc.h"
 #include "../../LIB_DRIVERS/STD_TYPES.h"
 
 

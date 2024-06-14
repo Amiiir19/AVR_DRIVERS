@@ -53,7 +53,7 @@ typedef enum
 typedef struct adc
 {
     ADC_VoltageRef ref_voltage;
-    ADC_Prescalar prescalar;
+    ADC_Prescalar prescaler;
 } ADC_ConfigType;
 
 /*******************************************************************************

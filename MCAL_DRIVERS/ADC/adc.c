@@ -6,7 +6,7 @@
  *
  * Description: source file for the ADC driver
  *
- * Author: Hossam Mohamed
+ * Author: Abdelrahman Mohamed Amir
  *
  *******************************************************************************/
 #include "adc.h"

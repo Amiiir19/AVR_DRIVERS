@@ -11,6 +11,8 @@
  *
  *******************************************************************************/
 #include "sensor.h"
+#include "../../MCAL_DRIVERS/ADC/adc.h"
+
 
 uint8 SENSOR_LM35_READ(void)
 {
