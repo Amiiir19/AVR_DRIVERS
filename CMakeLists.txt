@@ -59,60 +59,79 @@ include_directories(
 ##########################################################################
 
 # Define source files
-set(SOURCES)
+# set(SOURCES)
 
-# Function to add source file if it exists
-function(add_source_file source_file)
-    if(EXISTS ${source_file})
-        list(APPEND SOURCES ${source_file})
-    else()
-        message(WARNING "Source file ${source_file} not found and will be skipped.")
-    endif()
-endfunction()
+# # Function to add source file if it exists
+# function(add_source_file source_file)
+#     if(EXISTS ${source_file})
+#         list(APPEND SOURCES ${source_file})
+#     else()
+#         message(WARNING "Source file ${source_file} not found and will be skipped.")
+#     endif()
+# endfunction()
 
-# Add sources conditionally
-add_source_file(${PROJECT_SOURCE_DIR}/src/main.c)
-add_source_file(${PROJECT_SOURCE_DIR}/APP/app.c)
+# # Add sources conditionally
+# add_source_file(${PROJECT_SOURCE_DIR}/src/main.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/APP/app.c)
 
-add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/DC_MOTOR/dcmotor.c)
-add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/LCD/lcd.c)
-add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/SENSOR/sensor.c)
-add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/ULTRASONIC/ultrasonic.c)
-add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/KEYPAD/keypad.c)
-add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/EEPROM/eeprom.c)
-add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/BUZZER/buzzer.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/DC_MOTOR/dcmotor.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/LCD/lcd.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/SENSOR/sensor.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/ULTRASONIC/ultrasonic.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/KEYPAD/keypad.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/EEPROM/eeprom.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/HAL_DRIVERS/BUZZER/buzzer.c)
 
-add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/ADC/adc.c)
-add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/EXIT/exti.c)
-add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/GPIO/gpio.c)
-add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/PWM/pwm.c)
-add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/UART/uart.c)
-add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/SPI/spi.c)
-add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/I2C/i2c.c)
-add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/TIMER/timer.c)
-add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/WDT/wdt.c)
-add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/ICU/icu.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/ADC/adc.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/EXIT/exti.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/GPIO/gpio.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/PWM/pwm.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/UART/uart.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/SPI/spi.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/I2C/i2c.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/TIMER/timer.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/WDT/wdt.c)
+# add_source_file(${PROJECT_SOURCE_DIR}/MCAL_DRIVERS/ICU/icu.c)
 
 
-# Define source files to compile 
-#set(SOURCES
-#    src/main.c
-#    APP/app.c
-#    HAL_DRIVERS/DC_MOTOR/dcmotor.c
-#    HAL_DRIVERS/LCD/lcd.c
-#    HAL_DRIVERS/SENSOR/sensor.c
-#    MCAL_DRIVERS/ADC/adc.c
-    
-#    MCAL_DRIVERS/GPIO/gpio.c
-#    MCAL_DRIVERS/PWM/pwm.c
-#)
+# # Define source files to compile 
+# set(SOURCES
+#     src/main.c
+#     APP/app.c
+#     HAL_DRIVERS/DC_MOTOR/dcmotor.c
+#     HAL_DRIVERS/LCD/lcd.c
+#     HAL_DRIVERS/SENSOR/sensor.c
+#     HAL_DRIVERS/BUZZER/buzzer.c
+#     HAL_DRIVERS/EEPROM/eeprom.c
+#     HAL_DRIVERS/KEYPAD/sensor.c
+#     HAL_DRIVERS/ULTRASONIC/ultrasonic.c
+
+#     MCAL_DRIVERS/ADC/adc.c
+#     MCAL_DRIVERS/GPIO/gpio.c
+#     MCAL_DRIVERS/PWM/pwm.c
+#     MCAL_DRIVERS/EXTI/exti.c
+#     MCAL_DRIVERS/I2C/i2c.c
+#     MCAL_DRIVERS/ICU/icu.c
+#     MCAL_DRIVERS/SPI/spi.c
+#     MCAL_DRIVERS/TIMER/timer.c
+#     MCAL_DRIVERS/UART/uart.c
+#     MCAL_DRIVERS/WDT/wdt.c
+# )
 ##################################################################################
+#Moatasem Video
+file(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.c *.h)
+
+string(REGEX REPLACE "build/[^;]+;?" "" SOURCES "${SOURCES}")
+
+
 # creates the main executable
 # Check if SOURCES list is not empty before creating the executable
 if(SOURCES)
     # Add executable
     add_executable(${PROJECT_NAME}.elf ${SOURCES})
 
+
+    
 #add_executable(${PROJECT_NAME}.elf ${SOURCES})
 
 ################################################################################
