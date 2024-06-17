@@ -3,6 +3,8 @@
         "gpio.h": "c",
         "bits_macros.h": "c",
         "std_types.h": "c",
-        "sensor.h": "c"
+        "sensor.h": "c",
+        "ultrasonic.h": "c",
+        "icu.h": "c"
     }
 }
