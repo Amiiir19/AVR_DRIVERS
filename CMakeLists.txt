@@ -1,34 +1,38 @@
-
-#Cmake Minumum Version
+# Specify the minimum version of CMake required for this project
 cmake_minimum_required(VERSION 3.28)
-#Set Project Name and the Language supported 
+# Set the project name and the languages supported (C and ASM)
 project(AVR_Project_Amir C ASM)
 
-
-set(AVR_TOOLCHAIN_PATH /usr/lib ) # Update this path to the location of your AVR toolchain
+# Set the path to the AVR toolchain (update this to your specific toolchain location)
+set(AVR_TOOLCHAIN_PATH /usr/lib ) 
 
 
 # Specify the AVR cross compiler
+
 #Set the that this is cross compiled to different values
 #set(CMAKE_SYSTEM_NAME Generic)
+
 #set the processor we cross compile for
 set(CMAKE_SYSTEM_PROCESSOR avr)
 
-#Set the compiler used For C & C++
+# Specify the C and C++ compilers for the AVR architecture
 set(CMAKE_C_COMPILER avr-gcc)
 set(CMAKE_CXX_COMPILER avr-g++)
+
 ################################################################
 # Define the MCU type and F_CPU
 set(MCU atmega32)
 set(F_CPU 16000000UL)
+
 ###############################################################
-# Define compiler and linker flags
+
+# Define the compiler and linker flags for building the project
 set(CMAKE_C_FLAGS "-Os -DF_CPU=${F_CPU} -mmcu=${MCU}")
 set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS}")
 set(CMAKE_EXE_LINKER_FLAGS "-mmcu=${MCU}")
 
-# Include directories to include during the build.
 
+# Include directories to be searched during the build process
 include_directories(
     ${AVR_TOOLCHAIN_PATH}/avr/include/avr
 
@@ -118,35 +122,41 @@ include_directories(
 #     MCAL_DRIVERS/WDT/wdt.c
 # )
 ##################################################################################
+
+
+
 #Moatasem Video
+
+# Use GLOB_RECURSE to collect all source files (C and header files) in the project directory
 file(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.c *.h)
 
+# Exclude any files in the 'build' directory from the SOURCES list
 string(REGEX REPLACE "build/[^;]+;?" "" SOURCES "${SOURCES}")
 
 
-# creates the main executable
+# Create the main executable from the collected source files
 # Check if SOURCES list is not empty before creating the executable
-if(SOURCES)
-    # Add executable
-    add_executable(${PROJECT_NAME}.elf ${SOURCES})
 
+if(SOURCES)
+        # Add executable target
+	add_executable(${PROJECT_NAME}.elf ${SOURCES})
 
     
-#add_executable(${PROJECT_NAME}.elf ${SOURCES})
+	#add_executable(${PROJECT_NAME}.elf ${SOURCES})
 
-################################################################################
-
-# Add custom target to generate hex file using avr-objcopy command to generate the project
-add_custom_target(${PROJECT_NAME}.hex ALL
-    DEPENDS ${PROJECT_NAME}.elf
-    COMMAND avr-objcopy -O ihex -R .eeprom ${PROJECT_NAME}.elf ${PROJECT_NAME}.hex
-)
-###################################################################################
-# Add custom target to flash the MCU
-add_custom_target(flash
-    COMMAND avrdude -v -p m32 -c usbasp  -b 115200 -U flash:w:${PROJECT_NAME}.hex:i
-)
+	################################################################################
+	    # Add a custom target to generate a hex file from the executable using avr-objcopy
+	add_custom_target(${PROJECT_NAME}.hex ALL	
+   	 DEPENDS ${PROJECT_NAME}.elf
+   	 COMMAND avr-objcopy -O ihex -R .eeprom ${PROJECT_NAME}.elf ${PROJECT_NAME}.hex
+	)
+	###################################################################################
+	    # Add a custom target to flash the MCU using avrdude
+	add_custom_target(flash
+    	COMMAND avrdude -v -p m32 -c usbasp  -b 115200 -U flash:w:${PROJECT_NAME}.hex:i
+	)
 else()
+    # Display an error message if no source files are found
     message(FATAL_ERROR "No source files found. Please check the paths and ensure the source files exist.")
 endif()
 

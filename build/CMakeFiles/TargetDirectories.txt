@@ -1,0 +1,5 @@
+/home/amir/AVR_DRIVERS/build/CMakeFiles/AVR_Project_Amir.elf.dir
+/home/amir/AVR_DRIVERS/build/CMakeFiles/AVR_Project_Amir.hex.dir
+/home/amir/AVR_DRIVERS/build/CMakeFiles/flash.dir
+/home/amir/AVR_DRIVERS/build/CMakeFiles/edit_cache.dir
+/home/amir/AVR_DRIVERS/build/CMakeFiles/rebuild_cache.dir

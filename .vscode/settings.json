@@ -5,6 +5,11 @@
         "std_types.h": "c",
         "sensor.h": "c",
         "ultrasonic.h": "c",
-        "icu.h": "c"
+        "icu.h": "c",
+        "i2c.h": "c",
+        "static_config.h": "c",
+        "spi_config.h": "c",
+        "uart_services.h": "c",
+        "wdt.h": "c"
     }
 }

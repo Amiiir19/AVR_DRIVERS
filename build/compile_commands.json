@@ -1,0 +1,128 @@
+[
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/APP/app.c.o -c /home/amir/AVR_DRIVERS/APP/app.c",
+  "file": "/home/amir/AVR_DRIVERS/APP/app.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/APP/app.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/BUZZER/buzzer.c.o -c /home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER/buzzer.c",
+  "file": "/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER/buzzer.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/BUZZER/buzzer.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/DC_MOTOR/dcmotor.c.o -c /home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR/dcmotor.c",
+  "file": "/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR/dcmotor.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/DC_MOTOR/dcmotor.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/EEPROM/eeprom.c.o -c /home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM/eeprom.c",
+  "file": "/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM/eeprom.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/EEPROM/eeprom.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/KEYPAD/keypad.c.o -c /home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD/keypad.c",
+  "file": "/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD/keypad.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/KEYPAD/keypad.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/LCD/lcd.c.o -c /home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD/lcd.c",
+  "file": "/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD/lcd.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/LCD/lcd.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/SENSOR/sensor.c.o -c /home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR/sensor.c",
+  "file": "/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR/sensor.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/SENSOR/sensor.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/ULTRASONIC/ultrasonic.c.o -c /home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC/ultrasonic.c",
+  "file": "/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC/ultrasonic.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/HAL_DRIVERS/ULTRASONIC/ultrasonic.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/ADC/adc.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC/adc.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC/adc.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/ADC/adc.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/EXTI/exti.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI/exti.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI/exti.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/EXTI/exti.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/GPIO/gpio.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO/gpio.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO/gpio.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/GPIO/gpio.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/I2C/i2c.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C/i2c.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C/i2c.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/I2C/i2c.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/ICU/icu.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU/icu.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU/icu.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/ICU/icu.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/PWM/pwm.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM/pwm.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM/pwm.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/PWM/pwm.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/SPI/SPI.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI/SPI.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI/SPI.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/SPI/SPI.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/SPI/SPI_services.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI/SPI_services.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI/SPI_services.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/SPI/SPI_services.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/TIMER/timer.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER/timer.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER/timer.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/TIMER/timer.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/UART/UART_Services.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART/UART_Services.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART/UART_Services.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/UART/UART_Services.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/UART/uart.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART/uart.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART/uart.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/UART/uart.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/WDT/wdt.c.o -c /home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT/wdt.c",
+  "file": "/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT/wdt.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/MCAL_DRIVERS/WDT/wdt.c.o"
+},
+{
+  "directory": "/home/amir/AVR_DRIVERS/build",
+  "command": "avr-gcc -I/usr/lib/avr/include/avr -I/home/amir/AVR_DRIVERS/APP -I/home/amir/AVR_DRIVERS/LIB_DRIVERS -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ADC -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/GPIO -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/PWM -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/ICU -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/I2C -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/EXTI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/SPI -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/UART -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/TIMER -I/home/amir/AVR_DRIVERS/MCAL_DRIVERS/WDT -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/DC_MOTOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/LCD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/SENSOR -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/ULTRASONIC -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/KEYPAD -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/EEPROM -I/home/amir/AVR_DRIVERS/HAL_DRIVERS/BUZZER -Os -DF_CPU=16000000UL -mmcu=atmega32 -g -o CMakeFiles/AVR_Project_Amir.elf.dir/src/main.c.o -c /home/amir/AVR_DRIVERS/src/main.c",
+  "file": "/home/amir/AVR_DRIVERS/src/main.c",
+  "output": "CMakeFiles/AVR_Project_Amir.elf.dir/src/main.c.o"
+}
+]
