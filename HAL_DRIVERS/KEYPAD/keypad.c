@@ -42,16 +42,17 @@ static uint8 KEYPAD_4x4[KEYPAD_NUM_ROWS][KEYPAD_NUM_COLS] = {
 uint8 KEYPAD_getPressedKey(void)
 {
 	uint8 col, row;
-	GPIO_setupPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID, PIN_INPUT);
-	GPIO_setupPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID + 1, PIN_INPUT);
-	GPIO_setupPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID + 2, PIN_INPUT);
-	GPIO_setupPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID + 3, PIN_INPUT);
+	
+	GPIO_setPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID, PIN_INPUT);
+	GPIO_setPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID + 1, PIN_INPUT);
+	GPIO_setPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID + 2, PIN_INPUT);
+	GPIO_setPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID + 3, PIN_INPUT);
 
-	GPIO_setupPinDirection(KEYPAD_COL_PORT_ID, KEYPAD_FIRST_COL_PIN_ID, PIN_INPUT);
-	GPIO_setupPinDirection(KEYPAD_COL_PORT_ID, KEYPAD_FIRST_COL_PIN_ID + 1, PIN_INPUT);
-	GPIO_setupPinDirection(KEYPAD_COL_PORT_ID, KEYPAD_FIRST_COL_PIN_ID + 2, PIN_INPUT);
+	GPIO_setPinDirection(KEYPAD_COL_PORT_ID, KEYPAD_FIRST_COL_PIN_ID, PIN_INPUT);
+	GPIO_setPinDirection(KEYPAD_COL_PORT_ID, KEYPAD_FIRST_COL_PIN_ID + 1, PIN_INPUT);
+	GPIO_setPinDirection(KEYPAD_COL_PORT_ID, KEYPAD_FIRST_COL_PIN_ID + 2, PIN_INPUT);
 #if (KEYPAD_NUM_COLS == 4)
-	GPIO_setupPinDirection(KEYPAD_COL_PORT_ID, KEYPAD_FIRST_COL_PIN_ID + 3, PIN_INPUT);
+	GPIO_setPinDirection(KEYPAD_COL_PORT_ID, KEYPAD_FIRST_COL_PIN_ID + 3, PIN_INPUT);
 #endif
 	while (1)
 	{
@@ -61,7 +62,7 @@ uint8 KEYPAD_getPressedKey(void)
 			 * Each time setup the direction for all keypad port as input pins,
 			 * except this row will be output pin
 			 */
-			GPIO_setupPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID + row, PIN_OUTPUT);
+			GPIO_setPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID + row, PIN_OUTPUT);
 
 			/* Set/Clear the row output pin */
 			GPIO_writePin(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID + row, KEYPAD_BUTTON_PRESSED);
@@ -89,7 +90,7 @@ uint8 KEYPAD_getPressedKey(void)
 #endif /* KEYPAD_NUM_COLS */
 				}
 			}
-			GPIO_setupPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID + row, PIN_INPUT);
+			GPIO_setPinDirection(KEYPAD_ROW_PORT_ID, KEYPAD_FIRST_ROW_PIN_ID + row, PIN_INPUT);
 			_delay_ms(5); /* Add small delay to fix CPU load issue in proteus */
 		}
 	}
